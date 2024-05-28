@@ -1690,4 +1690,17 @@ option {
 }
 .btn:hover {
   opacity: 0.7;
+}
+
+.btn-search {
+  cursor: pointer;
+  height: 48px;
+  width: 56px;
+  background-image: url("../svg/icon-search.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #202024;
+  border: 0;
+  border-radius: 4px;
+  transform: translate3d(6px, 0, 0);
 }/*# sourceMappingURL=style.css.map */

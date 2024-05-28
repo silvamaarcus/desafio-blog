@@ -66,3 +66,21 @@ option {
     opacity: 0.7; // aplicar opacidade
   }
 }
+
+.btn-search {
+  cursor: pointer;
+  height: 48px;
+  width: 56px;
+
+  background-image: url("../svg/icon-search.svg");
+  background-repeat: no-repeat; // ñ repetir icone
+  background-position: center center; // centralizar nos dois eixos
+
+  background-color: $dark-30;
+  border: 0;
+  // border: 1px solid red;
+  border-radius: 4px;
+
+  // colar o elemento (botao) no input
+  transform: translate3d(6px, 0, 0); // descer 6px no eixo y
+}
