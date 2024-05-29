@@ -17,6 +17,8 @@
   max-width: 36px;
   transition: 0.5s ease;
 
+  cursor: pointer;
+
   @include responsive(s) {
     max-width: 32px;
   }

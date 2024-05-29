@@ -34,6 +34,11 @@ textarea {
   width: 100%; // sempre ocupar a largura total do 'pai'
   color: $white-normal;
   @include typeface-2(p3, desktop);
+
+  // remover bora de foco
+  &:focus{
+    outline: none;
+  }
 }
 
 select,
@@ -50,8 +55,8 @@ option {
   color: $white-normal;
   background: linear-gradient(
     224.78deg,
-    #5390e3 8.12%,
-    #1357b3 92.21%
+    #e07b67 8.12%,
+    #a14330 92.21%
   ) !important;
 
   border-radius: 4px;
